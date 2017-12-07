@@ -1,0 +1,54 @@
+.logo {
+		height:26pt;
+        max-width: 100%;
+		margin-top:-4%;
+}
+
+.gd {
+		width:100%;
+}
+
+.navbar-default {
+    background: rgba(255, 255, 255, 0);
+	border: 0px;
+}
+
+hr {
+    height: 1px;
+    background-color:#000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.illustration{
+    
+    padding: 10px 0 10px 0;
+}
+.navbar-brand{
+    
+    padding: 15px 10px;
+}
+.dropdown-menu {
+    border: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.1);
+    /* box-shadow: 0 6px 12px rgba(0,0,0,.1); */
+
+}
+.mt-1
+{
+    margin-top: 1em;
+    
+}
+.mb-1
+{
+    margin-bottom: 1em;
+    
+}
+.navbar-default .navbar-toggle {
+    border: 0px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0px;
+}
