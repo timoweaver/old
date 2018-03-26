@@ -29,21 +29,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/mod.js"></script>
-	 <script type="text/javascript">
-         $("#nav").load("nav.html");
-		 $("#footer").load("footer.html");
-	</script>
+    <script type="text/javascript"></script>
 </head>
 
 <body>
+
     <!--NAVBAR-->
     <nav>
         <nav class="navbar navbar-default navbar-custom navbar-static-top">
             <div class="container" id="nav">
+                <script>
+                    $("#nav").load("nav.html");
+                </script>
             </div>
         </nav>
     </nav>
     <!--NAVBAR-->
+
+
 
     <!--Internal-->
     <div class="container">
@@ -78,6 +81,9 @@
         </div>
 <!--footer-->
         <div id="footer">
+            <script>
+                $("#footer").load("footer.html");
+            </script>
         </div>
     </div>
 </body>
